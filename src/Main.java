@@ -9,5 +9,9 @@ public class Main {
         noRaiz.setLeft(noEsquerdo);
         noRaiz.setRight(noDireito);
         arvore.setRaiz(noRaiz);
+
+        System.out.println(arvore.getRaiz().getConteudo());
+        System.out.println(arvore.getRaiz().getLeft().getConteudo());
+        System.out.println(arvore.getRaiz().getRight().getConteudo());
     }
 }

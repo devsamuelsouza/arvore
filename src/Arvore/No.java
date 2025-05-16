@@ -26,4 +26,12 @@ public class No {
     public char getConteudo() {
         return this.letra;
     }
+
+    public No getLeft() {
+        return this.left;
+    }
+
+    public No getRight() {
+        return this.right;
+    }
 }
